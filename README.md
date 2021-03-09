@@ -80,7 +80,7 @@ wrong hands, an AWS account can accrue charges rapidly, even with a daily budget
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
    corner of the screen.
    
-A Note on the Root User
+##### A Note on the Root User
 It is widely considered bad practice to perform tasks with the root user. The root user 
 should only be used to create the first IAM user, to open billing privileges to administrators, 
 and to close the account. Store the credentials securely.
