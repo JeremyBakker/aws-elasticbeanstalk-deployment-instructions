@@ -73,20 +73,18 @@ register.
 4. Document all credentials securely: root user email address; root user password; IAM 
    username; IAM password, and account number. 
    
-   <br style="text-align: center">**Store this information in the securest manner 
-   possible. Consider using a password manager such as LastPass or One Password. Your 
-   finances are now tied to these credentials. In the wrong hands, an AWS account can 
-   accrue charges rapidly, even with a daily budget.**</br>     
-   
+**Store this information in the securest manner possible. Consider using a password manager 
+such as LastPass or One Password. Your finances are now tied to these credentials. In the 
+wrong hands, an AWS account can accrue charges rapidly, even with a daily budget.**
 
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
    corner of the screen.
 
-<p style="text-align: center;font-style: italic;"> A Note on the Root User </p>
-<p style="text-align: center;">It is widely considered bad practice to perform 
+A Note on the Root User 
+It is widely considered bad practice to perform 
 tasks with the root user. The root user should only be used to create the first IAM 
 user, to open billing privileges to administrators, and to close the account. Store 
-the credentials securely.</p>
+the credentials securely.
 
 6. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 7. Choose **Sign In to the Console**.
