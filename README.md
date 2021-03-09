@@ -73,9 +73,12 @@ register.
 4. Document all credentials securely: root user email address; root user password; IAM 
    username; IAM password, and account number. 
    
-**Store this information in the securest manner possible. Consider using a password manager 
-such as LastPass or One Password. Your finances are now tied to these credentials. In the 
-wrong hands, an AWS account can accrue charges rapidly, even with a daily budget.**
+**Store this information in the securest manner possible. You will notice that this document 
+repeatedly mentions securing your credentials. The importance cannot be overstated. Your 
+finances are now tied to these credentials. In the wrong hands, an AWS account can accrue 
+charges rapidly, even with a daily budget. Consider using a password manager such as LastPass 
+or One Password, services whose yearly costs mirror the cost of one hour of the most expensive 
+EC2 instance. Pay for basic security to avoid paying for someone else's use of your account.**
 
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
    corner of the screen.
