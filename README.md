@@ -43,7 +43,7 @@ You will receive an email to confirm that your account has been created. Once th
 happens, you can access your account with the email address and password you used to 
 register. 
 
-#### Setting Up a User and Root Multi-factor Authentication
+#### Setting Up an IAM User and Root Multi-factor Authentication
 1. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 2. Choose **Sign In to the Console**.
 3. Sign in as the **Root user**.
