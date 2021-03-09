@@ -82,13 +82,9 @@ services whose yearly costs mirror the cost of one hour of the most expensive EC
 Pay for basic password management to avoid paying for someone else's use of your account.**
 
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
-   corner of the screen.
-   
-##### A Note on the Root User
-It is widely considered bad practice to perform tasks with the root user. The root user 
-should only be used to create the first IAM administrative user, to open billing privileges 
-to administrators, and to close the account. **Store the credentials securely.**
-
+   corner of the screen. It is widely considered bad practice to perform tasks with the root 
+   user. The root user should only be used to create the first IAM administrative user, to open 
+   billing privileges to administrators, and to close the account. **Store the credentials securely.**
 6. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 7. Choose **Sign In to the Console**.
 8. Sign in as the **IAM user** you created above.
@@ -109,9 +105,8 @@ to administrators, and to close the account. **Store the credentials securely.**
 
 ### Installing the Elastic Beanstalk CLI
 While it is possible to deploy an application through the AWS Elastic Beanstalk Console, you will find 
-working with the CLI to be more efficient.
-
-You can find installation instructions [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html).
-Note that the CLI requires Python 2.7, 3.4 or later. Since Python 2 has reached its end of life, 
-you should probably be working in Python 3.
+working with the CLI to be more efficient. You can find installation instructions 
+[here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html). Note 
+that the CLI requires Python 2.7, 3.4 or later. Since Python 2 has reached its 
+[end of life](https://www.python.org/doc/sunset-python-2/), you should be working in Python 3.
 
