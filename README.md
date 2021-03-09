@@ -47,7 +47,7 @@ register.
 1. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 2. Choose **Sign In to the Console**.
 3. Sign in as the **Root user**.
-4. [Set up a virtual Multi-factor Authentication device for yoru AWS account root user.
+4. [Set up a virtual Multi-factor Authentication device for your AWS account root user.
    ](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_mfa_enable_virtual.html#enable-virt-mfa-for-root)
 5. Navigate to **IAM** with the search bar at the top of the screen.
 6. Choose **Users** on the left navigation menu.
@@ -79,12 +79,11 @@ wrong hands, an AWS account can accrue charges rapidly, even with a daily budget
 
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
    corner of the screen.
-
-A Note on the Root User 
-It is widely considered bad practice to perform 
-tasks with the root user. The root user should only be used to create the first IAM 
-user, to open billing privileges to administrators, and to close the account. Store 
-the credentials securely.
+   
+A Note on the Root User
+It is widely considered bad practice to perform tasks with the root user. The root user 
+should only be used to create the first IAM user, to open billing privileges to administrators, 
+and to close the account. Store the credentials securely.
 
 6. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 7. Choose **Sign In to the Console**.
