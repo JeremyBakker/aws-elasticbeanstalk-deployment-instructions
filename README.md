@@ -82,8 +82,8 @@ wrong hands, an AWS account can accrue charges rapidly, even with a daily budget
    
 ##### A Note on the Root User
 It is widely considered bad practice to perform tasks with the root user. The root user 
-should only be used to create the first IAM user, to open billing privileges to administrators, 
-and to close the account. Store the credentials securely.
+should only be used to create the first IAM administrative user, to open billing privileges 
+to administrators, and to close the account. **Store the credentials securely.**
 
 6. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 7. Choose **Sign In to the Console**.
@@ -104,6 +104,10 @@ and to close the account. Store the credentials securely.
     right corner of the screen.
 
 ### Installing the Elastic Beanstalk CLI
+While it is possible to deploy an application through the AWS Elastic Beanstalk Console, you will find 
+working with the CLI to be more efficient.
 
-
+You can find installation instructions [here](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/eb-cli3-install-advanced.html).
+Note that the CLI requires Python 2.7, 3.4 or later. Since Python 2 has reached its end of life, 
+you should probably be working in Python 3.
 
