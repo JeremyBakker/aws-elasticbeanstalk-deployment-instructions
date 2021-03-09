@@ -30,8 +30,8 @@ to prevent unwanted charges.
 #### Creating and Activating Your Account
 1. Open the [Amazon Web Services home page](https://aws.amazon.com/).
 2. Choose **Create an AWS Account**.
-3. Enter your account information. Document the information securely and then choose 
-   **Continue**.
+3. Enter your account information. [Choose a strong password](https://www.lastpass.com/password-generator), 
+   document the information securely, and then choose **Continue**.
 4. Choose **Personal**.
 5. Enter your personal information.
 6. Enter your billing information.
@@ -76,9 +76,10 @@ register.
 **Store this information in the securest manner possible. You will notice that this document 
 repeatedly mentions securing your credentials. The importance cannot be overstated. Your 
 finances are now tied to these credentials. In the wrong hands, an AWS account can accrue 
-charges rapidly, even with a daily budget. Consider using a password manager such as LastPass 
-or One Password, services whose yearly costs mirror the cost of one hour of the most expensive 
-EC2 instance. Pay for basic security to avoid paying for someone else's use of your account.**
+charges rapidly, even with a daily budget. Consider using a password manager such as 
+[LastPass](https://www.lastpass.com/) or [1Password](https://1password.com/landing/password-manager/), 
+services whose yearly costs mirror the cost of one hour of the most expensive EC2 instance. 
+Pay for basic password management to avoid paying for someone else's use of your account.**
 
 5. **Sign out** of the Root account through the account dropdown menu in the top right 
    corner of the screen.
